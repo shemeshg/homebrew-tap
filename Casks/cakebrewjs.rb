@@ -2,11 +2,11 @@ cask "cakebrewjs" do
   version "0.1.5"
   sha256 "65940aac10de0f22c402e768f3e1f51b6a479c61b81597fa8cc6676f006d8e10"
 
-  url "https://github.com/shemeshg/cakebrewjs/releases/download/v#{version}/cakebrewjs-#{version}-mac.zip"
-  appcast "https://github.com/shemeshg/cakebrewjs/releases.atom"
+  url "https://downloads.sourceforge.net/cakebrewjs/v#{version}/cakebrewjs-#{version}-mac.zip"
+  appcast "https://sourceforge.net/projects/cakebrewjs/rss?"
   name "cakebrewjs"
   desc "Homebrew GUI App written in electron"
-  homepage "https://github.com/shemeshg/cakebrewjs"
+  homepage "https://sourceforge.net/projects/cakebrewjs"
 
   app "cakebrewjs.app"
 
