@@ -1,6 +1,6 @@
 cask "cakebrewjs" do
-  version "0.1.4"
-  sha256 "7d3bef115d03691f97754b5e56852faf11db63304e70bd1930cf906203c4e9e5"
+  version "0.1.5"
+  sha256 "65940aac10de0f22c402e768f3e1f51b6a479c61b81597fa8cc6676f006d8e10"
 
   url "https://github.com/shemeshg/cakebrewjs/releases/download/v#{version}/cakebrewjs-#{version}-mac.zip"
   appcast "https://github.com/shemeshg/cakebrewjs/releases.atom"
