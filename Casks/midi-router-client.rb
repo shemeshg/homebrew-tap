@@ -8,8 +8,8 @@ cask "midi-router-client" do
   desc "Midi router - anywhere to anywhere"
   homepage "https://sourceforge.net/projects/midi-router-client/"
 
-  app "releaseOSX11/Midi router client.app"
-  app "releaseOSX11/Midi router server.app"
+  app "releaseOSX11_#{version}/Midi router client.app"
+  app "releaseOSX11_#{version}/Midi router server.app"
 
   zap trash: [
     "~/Library/Application Support/Midi router client",
