@@ -1,6 +1,6 @@
 cask "midi-router-client" do
-  version "1.1.3"
-  sha256 "6c3278c55649fa41c52a647489a78556c7db714b39d844257dcdefb5e9a90de9"
+  version "1.1.5"
+  sha256 "c7e29703071286a805fb12efffcd5c6c9f5cd0b99e5075b5db4e12922a103599"
 
   url "https://downloads.sourceforge.net/midi-router-client/releaseOSX11_#{version}.zip"
   appcast "https://sourceforge.net/projects/midi-router-client/rss?"
