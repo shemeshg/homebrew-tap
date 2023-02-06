@@ -4,8 +4,8 @@ cask "pass-simple" do
 
   url "https://downloads.sourceforge.net/pass-simple/pass-simple-osx_0.2.0.dmg"
   appcast "https://sourceforge.net/projects/pass-simple/rss?"
-  name "pass-simple"
-  desc "Pass simple - Multi-platform GUI for, pass cli util"
+  name "Pass simple"
+  desc "GUI for pass cli util"
   homepage "https://sourceforge.net/projects/pass-simple/"
 
   app "Pass simple.app"
