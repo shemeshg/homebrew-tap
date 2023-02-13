@@ -1,8 +1,8 @@
 cask "pass-simple" do
-  version "0.17.0"
-  sha256 "446c27a64e78ad2d917e26561596945fbb3501a680e5d54462c7c636c34dd5ae"
+  version "0.18.0"
+  sha256 "f563417a6fff6b09f0233444f72a14435188e10442e0d78d4604f75bd5703c15"
 
-  url "https://downloads.sourceforge.net/pass-simple/pass-simple-osx_0.17.0.dmg"
+  url "https://downloads.sourceforge.net/pass-simple/pass-simple-osx_0.18.0.dmg"
   appcast "https://sourceforge.net/projects/pass-simple/rss?"
   name "Pass simple"
   desc "GUI for pass cli util"
