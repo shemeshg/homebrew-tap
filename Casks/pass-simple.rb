@@ -1,6 +1,6 @@
 cask "pass-simple" do
-  version "0.48.0"
-  sha256 "80306dbab15a64c5c7967acbb15434c3be6101b3dde6b2dd38c0cd3d7939b80f"
+  version "0.49.0"
+  sha256 "762b9aa980ec3d9906f5ce124e26da3cab74a25c10ef4f587d4b15bdf7fabd56"
 
   url "https://downloads.sourceforge.net/pass-simple/pass-simple-osx_#{version}.zip"
   appcast "https://sourceforge.net/projects/pass-simple/rss?"
