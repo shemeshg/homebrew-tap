@@ -12,12 +12,11 @@ cask "pass-simple" do
     regex(/pass-simple-macos-(\d+(?:\.\d+)+)\.zip/i)
     strategy :page_match
   end
-  
-  app "Pass simple.app"
 
+  app "Pass simple.app"
 
   zap trash: [
     "~/Library/Caches/Pass simple",
-  "~/Library/Preferences/com.shemeshg.PassSimple.plist",
+    "~/Library/Preferences/com.shemeshg.PassSimple.plist",
   ]
 end
