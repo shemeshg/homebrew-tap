@@ -1,6 +1,6 @@
 cask "pass-simple" do
-  version "0.64.0"
-  sha256 "85fd63e6e18bab60e8f86ec256f854825ad2fd86b230e3cc07340d653e8f522e"
+  version "0.65.0"
+  sha256 "2b1922b5e402c557cff3175583f86eb89bd77665d0737b41034d349ca6e7c301"
 
   url "https://downloads.sourceforge.net/pass-simple/pass-simple-macos_#{version}.zip"
   name "Pass simple"
