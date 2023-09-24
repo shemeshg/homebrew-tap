@@ -15,7 +15,7 @@ cask "pass-simple" do
 
   app "Pass simple.app"
 
-  depends_on formula: "pkg-pass"
+  depends_on formula: "pass"
   depends_on formula: "pinentry-mac"
 
   zap trash: [
