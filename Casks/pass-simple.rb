@@ -15,6 +15,9 @@ cask "pass-simple" do
 
   app "Pass simple.app"
 
+  depends_on formula: "pkg-pass"
+  depends_on formula: "pinentry-mac"
+
   zap trash: [
     "~/Library/Caches/Pass simple",
     "~/Library/Preferences/com.shemeshg.PassSimple.plist",
