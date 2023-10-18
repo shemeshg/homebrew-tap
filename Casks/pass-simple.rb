@@ -13,7 +13,7 @@ cask "pass-simple" do
     strategy :page_match
   end
 
-  app "Pass simple.app"
+  app "pass-simple.app"
 
   depends_on formula: "pass"
   depends_on formula: "pinentry-mac"
