@@ -1,6 +1,6 @@
 cask "pass-simple" do
-  version "0.108"
-  sha256 "68b0fde71de511e74db90911475d0f1b065c5392465470482f3971bd0a6cc200"
+  version "0.109"
+  sha256 "b376791549f53239ddfcfaf19c266a5392445a5fadf278c52a2f6464293b3e49"
 
   url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-Darwin.dmg"
   name "Pass simple"
