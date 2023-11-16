@@ -9,7 +9,7 @@ cask "pass-simple" do
 
   livecheck do
     url "https://sourceforge.net/projects/pass-simple/rss?"
-    regex(/pass-simple-macos-(\d+(?:\.\d+)+)\.zip/i)
+    regex(/pass-simple-macos-(\d+(?:\.\d+)+)-Darwin\.dmg/i)
     strategy :page_match
   end
 
