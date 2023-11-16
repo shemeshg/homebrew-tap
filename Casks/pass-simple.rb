@@ -15,6 +15,7 @@ cask "pass-simple" do
 
   app "pass-simple.app"
 
+  depends_on macos: ">= :big_sur"
   depends_on formula: "pass"
   depends_on formula: "pinentry-mac"
 
