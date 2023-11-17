@@ -1,4 +1,4 @@
-cask "pass-simple" do
+cask "quicktest" do
   version "0.01"
   sha256 "a02b2a1dda7f877d2b8f49298db6325b1acd237a21f97e92b8e9c73dd66e97c7"
 
