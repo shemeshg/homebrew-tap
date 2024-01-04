@@ -10,6 +10,8 @@ cask "pass-simple" do
   depends_on macos: ">= :big_sur"
   depends_on formula: "pass"
   depends_on formula: "pinentry-mac"
+  depends_on formula: "botan"
+  depends_on formula: "json-c"  
 
   app "pass-simple.app"
 
