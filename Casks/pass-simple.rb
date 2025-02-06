@@ -15,7 +15,7 @@ cask "pass-simple" do
   depends_on formula: "botan"
   depends_on formula: "json-c"  
 
-  app "pass-simple.app"
+  app "pass simple.app"
 
   zap trash: [
     "~/Library/Caches/Pass simple",
