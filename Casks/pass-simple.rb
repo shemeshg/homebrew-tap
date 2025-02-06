@@ -1,10 +1,10 @@
 cask "pass-simple" do
   arch arm: "arm64", intel: "x86_64"
   version "1.0.15"
-  sha256  arm: "b5835459629e4f1c5a1b3190a2ed1c1d0c7b51782c4ed35abc7fc250f60f700a",
-          intel: "ed8ee08bc5c0b3a5073607ae1eb85575ac07a431cca9281166b8b67fec945fda"
+  sha256  arm: "ce2f808a710fbe54456377a4719985b4741c8eafe79e9a36c125fb4cbe6fa85e"
+          
 
-  url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-#{arch}.dmg"
+  url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-#{arch}.zip"
   name "Pass simple"
   desc "GUI for pass cli util"
   homepage "https://sourceforge.net/projects/pass-simple/"
