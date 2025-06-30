@@ -1,7 +1,7 @@
 cask "pass-simple" do
   arch arm: "arm64", intel: "x86_64"
-  version "1.0.21"
-  sha256  arm: "572ca7339e9b240ea2432bb8bdcdb20e3ac988bdf0b0da327a5c21a96050668f"
+  version "1.0.22"
+  sha256  arm: "c0149b745522ed7b8be50ed37ace1879fc9b0f8c2aa8b3e0fb95064db627d4a5"
           
 
   url "https://downloads.sourceforge.net/pass-simple/pass-simple-#{version}-#{arch}.dmg"
