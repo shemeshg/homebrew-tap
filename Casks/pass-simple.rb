@@ -1,5 +1,5 @@
 cask "pass-simple" do
-  arch arm: "arm64", intel: "x86_64"
+  arch arm: "arm64"
   version "1.0.22"
   sha256  arm: "fd9ab8e2b43219f226b7ec5ead06ad61117350187f1672a98bdc77271126e422"
           
