@@ -24,12 +24,5 @@ cask "midi-router-client" do
     "~/Library/Preferences/com.shemeshg.MidiRouter.plist",
     "~/Library/Preferences/com.shemeshg.midirouterclient.midi-router-client.plist",
   ]
-
-  service do
-    run [opt_bin/"midi-router-client", "--headless"]
-    keep_alive true
-    log_path var/"log/midi-router-client.log"
-    error_log_path var/"log/midi-router-client.log"
-  end
   
 end
